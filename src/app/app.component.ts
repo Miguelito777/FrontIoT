@@ -11,13 +11,33 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 export class AppComponent {
   public appPages = [
     {
-      title: 'Home',
+      title: 'Login',
       url: '/home',
       icon: 'home'
     },
     {
-      title: 'List',
-      url: '/list',
+      title: 'Home',
+      url: '/principal',
+      icon: 'list'
+    },
+    {
+      title: 'Activar Riego',
+      url: '/ActivarRiego',
+      icon: 'list'
+    },
+    {
+      title: 'Temperatura Tierra',
+      url: '/obtTemTierra',
+      icon: 'list'
+    },
+    {
+      title: 'Temperatura Ambiente',
+      url: '/obtTemAmbiente',
+      icon: 'list'
+    },
+    {
+      title: 'Activar Calefacción',
+      url: '/ActivarCalefaccion',
       icon: 'list'
     }
   ];

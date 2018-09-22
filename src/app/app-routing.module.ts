@@ -14,7 +14,12 @@ const routes: Routes = [
   {
     path: 'list',
     loadChildren: './list/list.module#ListPageModule'
-  }
+  },
+  { path: 'principal', loadChildren: './principal/principal.module#PrincipalPageModule' },
+  { path: 'ActivarRiego', loadChildren: './activar-riego/activar-riego.module#ActivarRiegoPageModule' },
+  { path: 'obtTemTierra', loadChildren: './obt-tem-tierra/obt-tem-tierra.module#ObtTemTierraPageModule' },
+  { path: 'obtTemAmbiente', loadChildren: './obt-tem-ambiente/obt-tem-ambiente.module#ObtTemAmbientePageModule' },
+  { path: 'ActivarCalefaccion', loadChildren: './activar-calefaccion/activar-calefaccion.module#ActivarCalefaccionPageModule' }
 ];
 
 @NgModule({
